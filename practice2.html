@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .card{
+            width: 600px;
+            height: 300px;
+            background-color: #ccc;
+            text-align: center;
+            font-size: 0;
+        }
+        .card::before{
+            content: "";
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .card .pic{
+            width: 200px;
+            height: 200px;
+            background-color: #0af;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .card .content{
+            width: 300px;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 16px;
+            text-align: left;
+            margin-left: 15px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="pic">
+             <img src="001.jpg" alt="1" width="200" height="200">
+        </div>
+        <div class="content">
+        <h3>居酒屋</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi nihil nulla minima recusandae voluptas eius repellat aliquid accusantium nobis delectus inventore nemo atque fuga debitis pariatur quaerat, odit quia quos.</p>
+        <a href="#">More</a>
+        </div>
+    </div>    
+</body>
+</html>

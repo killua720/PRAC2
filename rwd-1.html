@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Document</title>
+    <style>
+        * {
+            font-family: fantasy;
+            box-sizing: border-box;
+        }
+        
+        .container {
+            width: 100%
+        }
+        /*
+        .wrapper{
+            width: 1200px;
+            margin: auto;
+        }
+        .col-4{
+            width: 25%;
+            padding: 10px;
+            float: left;
+        }
+*/
+        
+        @media screen and (min-width:1200px) {
+            .wrapper {
+                width: 1200px;
+                margin: auto;
+            }
+            .col-4 {
+                width: 25%;
+                padding: 10px;
+                float: left;
+            }
+        }
+        /*
+        @media screen and (max-width:1200px){
+        .wrapper{
+            width: 100%;
+            }
+        .col-4{
+            width: 50%;
+            padding: 10px;
+            float: left;
+             }
+        }
+        @media screen and (max-width:480px){
+            .wrapper{
+            width: 100%;
+            }
+        .col-4{
+            width: 100%;
+            padding: 10px;
+            float: left;
+             }
+        }
+*/
+        
+        @media screen and (min-width:800px) and (max-width:1200px) {
+            .wrapper {
+                width: 800px;
+                margin: auto;
+            }
+            .col-4 {
+                width: 25%;
+                padding: 10px;
+                float: left;
+            }
+        }
+        
+        @media screen and (min-width:480px) and (max-width:800px) {
+            .wrapper {
+                width: 100%;
+            }
+            .col-4 {
+                width: 50%;
+                padding: 10px;
+                float: left;
+            }
+        }
+        
+        @media screen and (max-width:480px) {
+            .wrapper {
+                width: 100%;
+            }
+            .col-4 {
+                width: 100%;
+                padding: 10px;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="col-4">
+                <h1>TITLE</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sunt culpa nulla qui cupiditate, nemo a illo, earum neque. Magni magnam iste, harum quasi maxime. Facilis nemo nam sint aliquid quis explicabo incidunt, natus dolor eaque facere et itaque iusto, tempore ullam praesentium architecto enim quisquam reprehenderit repellat! Fuga, neque.</p>
+            </div>
+
+            <div class="col-4">
+                <h1>TITLE</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sunt culpa nulla qui cupiditate, nemo a illo, earum neque. Magni magnam iste, harum quasi maxime. Facilis nemo nam sint aliquid quis explicabo incidunt, natus dolor eaque facere et itaque iusto, tempore ullam praesentium architecto enim quisquam reprehenderit repellat! Fuga, neque.</p>
+
+            </div>
+            <div class="col-4">
+                <h1>TITLE</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sunt culpa nulla qui cupiditate, nemo a illo, earum neque. Magni magnam iste, harum quasi maxime. Facilis nemo nam sint aliquid quis explicabo incidunt, natus dolor eaque facere et itaque iusto, tempore ullam praesentium architecto enim quisquam reprehenderit repellat! Fuga, neque.</p>
+            </div>
+
+
+            <div class="col-4">
+                <h1>TITLE</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio sunt culpa nulla qui cupiditate, nemo a illo, earum neque. Magni magnam iste, harum quasi maxime. Facilis nemo nam sint aliquid quis explicabo incidunt, natus dolor eaque facere et itaque iusto, tempore ullam praesentium architecto enim quisquam reprehenderit repellat! Fuga, neque.</p>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>

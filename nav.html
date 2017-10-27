@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .clearfix:after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        nav{
+            width: 100%;
+            background-color: #c3c3c3;
+        }
+        .container{
+            width: 1000px;
+            margin: auto;
+            background-color: #8e8e8e;
+        }
+        .logo{
+            float: left;
+            width: 120px;
+            height: 60px;
+            background-color: #ff0058;
+        }
+        .menu{
+            float: right;
+        }
+        nav ul {
+            margin: 0;
+            padding: 0;
+        }
+        nav li{ 
+            list-style: none;
+            float: left;
+        }
+        nav a {
+          display: block;
+            color: #fff;
+            text-decoration: none;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 60px;
+            font-family:fantasy;
+        }
+        nav a:hover{
+/*          color: #ff0058;
+            background-color:#ff0058;
+            text-decoration: underline;
+*/
+        }
+        nav a:focus{
+            color:#ff0058;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="container clearfix">
+        <div class="logo"></div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">menu-1</a></li>
+                <li><a href="#">menu-2</a></li>
+                <li><a href="#">menu-3</a></li>
+                <li><a href="#">menu-4</a></li>
+                <li><a href="#">menu-5</a></li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+</body>
+</html>

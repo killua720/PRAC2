@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box{
+            width: 200px;
+            height: 200px;
+            background-color: #fc28a2;
+            position: absolute;
+            top:0;
+            left: 0;
+            animation: banana 5s forwards;
+        }
+        .box2{
+            width: 200px;
+            height: 200px;
+            background-color: #28fcd3;
+            position: absolute;
+            top:400px;
+            left: 0;
+            animation: apple 5s infinite ease-out;
+        }
+        @keyframes banana{
+            from{left:  0;}
+            to{left:  600px;}
+        }
+        @keyframes apple{
+            from{left: ;}
+            to{left:  600px;}
+        }
+        @keyframes ro{
+            from{transform: rotateY(0deg);}
+            to{transform: }
+        }
+    </style>
+</head>
+<body>
+    <div class="box"></div>
+    <div class="box2"></div>
+</body>
+</html>
